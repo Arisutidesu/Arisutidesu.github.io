@@ -1,0 +1,65 @@
+.button {
+    background-color: rgb(18, 118, 218);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    left: 25.8%;
+  }
+  
+  .button2 {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    left: 46%; 
+  }
+  
+  .button3 {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    left: 29%; 
+  }
+  
+  .button4 {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    left: 52%; 
+  }
+  
+  .button:hover,
+  .button2:hover,
+  .button3:hover,
+  .button4:hover {
+    background-color: RoyalBlue;
+  }
+
+.table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding:15px;
+}
+	#table_01 {
+	width: 70%;
+	background-color:white;
+}
+	#table_02 {
+	width: 70%;
+	background-color: white;
+}
+

@@ -95,6 +95,34 @@
   }
 } 
 </script>
+<div id="Clock" onload="showTime()"></div>
+<script>
+  function showTime() {
+    var date = new Date();
+    var h = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    var session = "AM"; 
+
+    if (h == 0 ) {
+      h = 12;
+    }
+    if (h > 12) {
+      h = h - 12;
+      session = "PM"
+    }
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("Clock").innerText = time;
+    document.getElementById("Clock").textContent = time;
+    
+    settimeOut(showTime, 1000);
+  }
+  showTime();
+</script>
+  </div>
   <div class="callout">
     <div class="callout-header">Information</div>
     <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>

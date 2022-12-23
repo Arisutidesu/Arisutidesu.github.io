@@ -1,0 +1,240 @@
+<docktype html>
+
+<html>
+    <title>Buku Tamu</title>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<body style="font-family:Verdana;color:#000000;">
+
+<div style=
+"background-image: url('gotoubun.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 250px;
+background-size: 100%;
+padding: 400px;text-align: center;
+background-color:#e5e5e5;padding:15px;text-align:center;">
+<h2>Website Anime Berkedok Latihan</h2>
+</div>
+
+<div style="overflow:auto">
+    <div class="menu">
+      <a href="index4.php">&#128073;Portfolio&#128072;</a>
+      <a href="index2.php">&#128073;Tabel&#128072;</a>
+      <a href="index5.php">&#128073;Beranda&#128072;</a>
+      <a href="index.php">&#128073;Profil&#128072;</a>
+      <a href="login.php">&#128073;Login&#128072;</a>
+    </div>
+
+<div style="font-family:Verdana;color:#000000;">
+<div class="main">
+<h3>Login</h3>
+  <table>
+<form>
+<tr>  
+<td><Label for"nama">Nama</label></td>
+<td><input type="text" id="xname" name="nm" required></td>
+</tr>
+<tr>
+<td><Label for"Email">Email</label></td>
+<td><input type="text" id="xemail" name="mail" required></td>
+</tr>
+<tr>
+<td><Label for"Alamat">Alamat</label></td>
+<td><input type="text" id="xal" name="al" required></td>
+</tr>
+<tr>
+<td><label for="title">Jenis Kelamin</label></td>
+<td><input type="radio" id="xlk" name="jk" value="Laki-Laki">
+<label for="Male">Laki-Laki</label></td>
+<td><input type="radio" id="xpr" name="jk" value="Perempuan">
+<label for="Female">Perempuan</label></td>
+</tr>
+<tr>
+<td><label for="title">Sosial Media</label></td>
+<td><input type="checkbox" id="Insta" name="ig" value="Instagram">
+<label for="Instagram">Instagram</label></td>
+<td><input type="checkbox" id="Tweet" name="twt" value="Twitter">
+<label for="Twitter">Twitter</label></td>
+<td><input type="checkbox" id="rd" name="rdt" value="Reddit">
+<label for="Reddit">Reddit</label></td>
+<td><input type="checkbox" id="Tele" name="tg" value="Telegram">
+<label for="Telegram">Telegram</label></td>
+</tr>
+<table>
+<form>
+<tr>
+  <td><label for="title">Informasi dari</label>
+  <select name="info">
+  <option selected="select">Pilih</option>
+  <option value="Surat Kabar">Surat Kabar</option>
+  <option value="Teman">Teman</option>
+  <option value="Keluarga">Keluarga</option>
+  <option value="Internet">Internet</option></td>
+  </select>
+</tr>
+<table>
+<form>
+  <h3>Genre</h3>
+<tr>
+<td><input type="radio" id="xanime" name="anime" value="Slice of Life">
+<label for="Genre">Slice of Life</label></td>
+<td><input type="radio" id="xanime" name="anime" value="Fantasy">
+<label for="Genre">Fantasy</label></td>
+<td><input type="radio" id="xanime" name="anime" value="Romance">
+<label for="Genre">Romance</label></td>
+<td><input type="radio" id="xanime" name="anime" value="Gore">
+<label for="Genre">Gore</label></td>
+<td><input type="radio" id="xanime" name="anime" value="School">
+<label for="Genre">School</label></td>
+<td><input type="radio" id="xanime" name="anime" value="Music">
+<label for="Genre">Music</label></td>
+<td><input type="radio" id="xanime" name="anime" value="Magic">
+<label for="Genre">Magic</label></td>
+<input type="radio" id="xanime" name="anime" value="Isekai">
+<label for="Genre">Isekai</label>
+<input type="radio" id="xanime" name="anime" value="Harem">
+<label for="Genre">Harem</label>
+<input type="radio" id="xanime" name="anime" value="Game">
+<label for="Genre">Game</label>
+<input type="radio" id="xanime" name="anime" value="Mecha">
+<label for="Genre">Mecha</label>
+<input type="radio" id="xanime" name="anime" value="Drama">
+<label for="Genre">Drama</label>
+<input type="radio" id="xanime" name="anime" value="Adventure">
+<label for="Genre">Adventure</label>
+<input type="radio" id="xanime" name="anime" value="Action">
+<label for="Genre">Action</label>
+<input type="radio" id="xanime" name="anime" value="Cars">
+<label for="Genre">Cars</label>
+<input type="radio" id="xanime" name="anime" value="Comedy">
+<label for="Genre">Comedy</label>
+</form>
+</table>
+</form>
+</table>
+<table>
+<form action="">
+<tr>
+<td><Label for="Ketik">Username</label></td>
+<td><input type="text" id="xlist" name="list">
+<input type="submit" value="Submit"></td>
+</tr>
+<br>
+<tr>
+<td><form action="" method="get" name="myform">Password</td>
+<td><input type="text" name="nama" size="25">
+<input type="submit" value="Submit" name="spn"></td>
+</tr>
+<table>
+<form>
+<h3>Pesan</h3>
+<tr>
+  <td><textarea name="pesan" id="psn" cols="40" rows="10"></textarea>
+  <input type="submit" value="Submit" name="spn"></td>
+
+</table>
+</form> 
+</div>
+
+<div class="center">
+  <p>HTML</p>
+  <div class="container2">
+    <div class="skills html">60%</div>
+  </div>
+  <p>CSS</p>
+  <div class="container2">
+    <div class="skills css">50%</div>
+  </div>
+  <p>Editing</p>
+  <div class="container2">
+    <div class="skills editing">85%</div>
+  </div>
+  <p>Design</p>
+  <div class="container2">
+    <div class="skills design">80%</div>
+  </div>
+  <p>Rigging</p>
+  <div class="container2">
+    <div class="skills rigging">75%</div>
+  </div>
+</div>
+
+  <div class="right">
+    <h2>Pesan Saya</h2>
+    <p>
+    Saya hanya orang biasa yang tidak tahu bagaimana menggunakan apapun, tapi saya melakukan yang terbaik untuk menyembunyikan kelemahan saya.&#128400;
+	</p>
+  </div>
+  <div class="right">
+    <h2>Konten Saya</h2>
+    <p>
+    Konten yang saya miliki adalah untuk tujuan ujian dan untuk meningkatkan keterampilan latihan saya.&#128515;
+    </p>
+  </div>
+  
+  <div class="right1">
+    <button onclick="typeWriter()">Jika ingin menekan, tekan saja</button>
+    <p id="demo"></p>
+    <script>
+    var i = 0;
+    var txt = 'Secret Ending : Walaupun Saya tidak tahu apakah tujuan Anda untuk datang ke website saya, tetapi saya sangat berterimakasih bahwasanya Anda adalah orang yang sangat menarik dan penasaran dengan teks ini';
+    var speed = 50;
+
+    function typeWriter() {
+    if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+} 
+</script>
+<div id="Clock" onload="showTime()"></div>
+<script>
+  function showTime() {
+    var date = new Date();
+    var h = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    var session = "AM"; 
+
+    if (h == 0 ) {
+      h = 12;
+    }
+    if (h > 12) {
+      h = h - 12;
+      session = "PM"
+    }
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("Clock").innerText = time;
+    document.getElementById("Clock").textContent = time;
+    
+    settimeOut(showTime, 1000);
+  }
+  showTime();
+</script>
+  </div>
+    <div class="callout">
+    <div class="callout-header">Information</div>
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+    <div class="callout-container">
+      <p>This page contains the login page and the anime genre you like.</p>
+    </div>
+  </div>
+</div>
+
+  <div style=
+  "background-image: url(mywallpaper.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  padding: 400px;text-align: center;">
+  </div>
+</div>
+</body>
+</html>

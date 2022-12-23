@@ -36,7 +36,7 @@ if(empty($_SESSION['login'])){
 						<p>Selamat kamu menjadi pembajak handal</p>
 						<center>
 							<a href="logout.php">Logout</a>
-							<a href="index.php">Profil</a>
+							<a href="index.html">Profil</a>
 						</center>
 					</div>
 				</div>
